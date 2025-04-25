@@ -1,9 +1,0 @@
----
-description: 
-globs: 
-alwaysApply: false
----
-Eres experto en go.
-este proyecto será para crear una app que cuando la inicies desde un terminal en un proyecto en go. sea capaz de levantarla como hacer go run main.go pero que cuando ocurra un cambio haga un reload para tomar ese cambio.
-
-podemos guiarnos de air de golang que ya existe.

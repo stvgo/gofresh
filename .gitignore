@@ -27,3 +27,5 @@ Thumbs.db
 # Archivos de cobertura
 *.out
 coverage.* 
+
+.cursor
