@@ -1,54 +1,29 @@
-# Binaries for programs and plugins
+# Binarios compilados
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
 
-# Test binary, built with `go test -c`
-*.test
+# Binario temporal de gofresh
+.gofresh-app
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
-
-# Dependency directories (remove the comment below to include it)
-vendor/
-
-# Go workspace file
-go.work
-
-# IDE specific files
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Cursor specific files
-.cursor/
-.cursor.json
-.cursor/
-cursor.json
-rules.json
-
-# Environment variables
-.env
-.env.local
-.env.development
-.env.test
-.env.production
-
-# Log files
-*.log
-
-# OS specific
+# Archivos del sistema operativo
 .DS_Store
 Thumbs.db
 
-# Build directory
-/build/
-/bin/
-/dist/
+# Directorios de dependencias (si usas vendor)
+/vendor/
 
-# Temporary files
-/tmp/
+# Archivos de IDE/Editor
+.idea/
+.vscode/
+*.swp
+*~
 
+# Archivos de log
+*.log
+
+# Archivos de cobertura
+*.out
+coverage.* 
